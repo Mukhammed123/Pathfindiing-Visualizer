@@ -1,0 +1,65 @@
+<!-- All Pairs Shortest Path (Floyd-Warshall) - Dynamic Programming -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Visualizer</title>
+    <link rel="stylesheet" href="table.css">
+
+  </head>
+
+  <body>
+    <header>
+      <!--<a href="index.html"><img src="imgs/MUSAlogo_400x400.jpg" class="logo"></a>-->
+    <div class="container">
+      <nav>
+        <ul>
+          <li>Click left mouse (and drag) on the table to create walls</li>
+          <li>Click "W" then click left mouse on cells where you want to put weights</li>
+          <li>Click "X" to stop adding weights</li>
+        </ul>
+        <!--
+        <ul id="firstNavList">
+           <li class="outsideList"><a href="#">Sorting Algorithms</a></li>
+          <li class="outsideList" id="shortestPath"><a href="#">Single Shortest Path</a></li>
+          <li class="outsideList"><a href="#">Maze Problems</a></li>
+          <li class="outsideList"><a href="#">Minimum Spanning Tree</a></li>
+          <li class="outsideList"><a href="#">Complicated Algorithms</a></li>
+        </ul>-->
+      </nav>
+    </div>
+    <button type="button" class="button" style="padding:15px;left:1%;">Run the ALgorithm</button>
+    </header>
+    <h1 style="position:absolute; top:15%; color: #2f3640;">Floyd Warshall's Algorithm</h1>
+
+    <!-- <nav>
+      <ul id="firstNavList">
+         <li class="outsideList"><a href="#">Sorting Algorithms</a></li>
+        <li class="outsideList" id="shortestPath"><a href="#">Single Shortest Path</a></li>
+        <li class="outsideList"><a href="#">Maze Problems</a></li>
+        <li class="outsideList"><a href="#">Minimum Spanning Tree</a></li>
+        <li class="outsideList"><a href="#">Complicated Algorithms</a></li>
+      </ul>
+    </nav> -->
+
+<!-- <h1>Floyd Warshall's Algorithm</h1> -->
+  <div class="wrapper">
+
+    <!-- <div class="innerNavList">
+      <ul id="innerNavList">
+        <li class="innerFirst"><a href="dijkstra.html">Dijkstra's Algorithm</a></li>
+        <li class="innerSecond"><a href="bellman.html">Bellman-Ford's Algorithm</a></li>
+        <li class="innerThird"><a href="bellman.html">Floyd-Warshall's Algorithm</a></li>
+      </ul>
+    </div> -->
+
+    <div class="tableDiv">
+      <table id="table"></table>
+    </div>
+</div>
+  </body>
+  <!--<script type="text/javascript" src="selectors.js"></script>-->
+  <script type="text/javascript" src="Algorithms/floyd-warshall.js"></script>
+  <script type="text/javascript" src="tables/floydTable.js"></script>
+</html>
